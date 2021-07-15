@@ -1,4 +1,3 @@
-// html routes
 
 // dependencies
 const path = require('path');
