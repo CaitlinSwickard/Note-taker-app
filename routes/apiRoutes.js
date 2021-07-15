@@ -1,4 +1,3 @@
-// api routes
 
 // dependencies 
 const path = require('path');
@@ -38,17 +37,16 @@ module.exports = (app) => {
 
 
   // DELETE /api/notes/:id should receive a query parameter containing the id of a note to delete.
-  // In order to delete a note, you'll need to read all notes from the db.json file, 
-  // remove the note with the given id property, and then rewrite the notes to the db.json file
-
-  app.delete('api/notes/:id', (req, res) => {
+  app.delete('/api/notes/:id', (req, res) => {
     // reading notes form db.json
     let db = JSON.parse(fs.readFileSync('db/db.json'))
     // removing note with id
     let deleteNotes = db.filter(item => item.id !== req.params.id);
+    console.log(req.params.id);
     // Rewriting note to db.json
     fs.writeFileSync('db/db.json', JSON.stringify(deleteNotes));
     res.json(deleteNotes);
+    
   })
 };
 
