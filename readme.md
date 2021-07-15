@@ -3,9 +3,12 @@
 This project is an application called Note Taker that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file. 
 This application will also be deployed to Heroku.
 
+[View deployed HEROKU app here!](https://peaceful-wildwood-17368.herokuapp.com/)
+
   * [Installation](#install)
   * [Usage](#usage)
   
+
 
 
 ## Criteria
@@ -23,7 +26,6 @@ This application will also be deployed to Heroku.
 - THEN that note appears in the right-hand column
 - WHEN I click on the Write icon in the navigation at the top of the page
 - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-
 
 
 
@@ -56,5 +58,5 @@ This will run the server where you can find the page on localhost:3001. To end y
 
 ## Screen shots
 
-![Shot-1]()
-![Shot-2]()
+![Shot-1](images/get-started.png)
+![Shot-2](images/notes.png)
