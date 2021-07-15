@@ -1,7 +1,7 @@
 # Note Taker App - Express.js
 
-
-This project is...
+This project is an application called Note Taker that can be used to write and save notes. This application uses an Express.js back end and will save and retrieve note data from a JSON file. 
+This application will also be deployed to Heroku.
 
   * [Installation](#install)
   * [Usage](#usage)
@@ -40,8 +40,9 @@ npm i
 
 Once all the packages have been installed, open terminal and run the following code in command line : 
 ```
-node index.js
+nodemon server.js
 ```
+This will run the server where you can find the page on localhost:3001. To end your server in your terminal type: control + c
 
 
 ## Built With
@@ -50,7 +51,7 @@ node index.js
 - Bootstrap 
 - JavaScript
 - Node.js
-  - Express
+  - Express.js
   - Uniqid
 
 ## Screen shots
