@@ -40,7 +40,7 @@ npm i
 
 Once all the packages have been installed, open terminal and run the following code in command line : 
 ```
-nodemon server.js
+node server.js
 ```
 This will run the server where you can find the page on localhost:3001. To end your server in your terminal type: control + c
 
