@@ -60,3 +60,6 @@ This will run the server where you can find the page on localhost:3001. To end y
 
 ![Shot-1](images/get-started.png)
 ![Shot-2](images/notes.png)
+
+### Credits
+Frontend starting files provided © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
